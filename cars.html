@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        img {
+            width: 100px; /* Adjust the size of images */
+        }
+        .form-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cars</h1>
+    <table>
+        <tr>
+            <th>Car Name</th>
+            <th>Car Image</th>
+            <th>Car Price</th>
+            <th>Car Website</th>
+        </tr>
+        <tr>
+            <td>Audi</td>
+            <td><img src="https://images.pexels.com/photos/12086936/pexels-photo-12086936.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Audi"></td>
+            <td>200,000</td>
+            <td><a href="https://www.audi.com">Audi Website</a></td>
+        </tr>
+        <tr>
+            <td>Mercedes</td>
+            <td><img src="https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Mercedes"></td>
+            <td>400,000</td>
+            <td><a href="https://www.mercedes.com">Mercedes Website</a></td>
+        </tr>
+        <tr>
+            <td>BMW</td>
+            <td><img src="https://images.pexels.com/photos/5381501/pexels-photo-5381501.jpeg?auto=compress&cs=tinysrgb&w=600" alt="BMW"></td>
+            <td>600,000</td>
+            <td><a href="https://www.bmw.com">BMW Website</a></td>
+        </tr>
+    </table>
+
+    <div class="form-container">
+        <h2>Enter your data</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
