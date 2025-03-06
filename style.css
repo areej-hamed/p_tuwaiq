@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: justify;
+}
+header{
+    background-image: url(https://early-wildflower-281.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Ffb56a855-0c74-4a0d-84dc-3fb7c76ae0b3%2F0ba5b70c-e4de-4e4b-87f9-3f873e0e9849%2FsoupHedar.jpg?table=block&id=58e976de-39d1-4fa9-968b-81680cf6e458&spaceId=fb56a855-0c74-4a0d-84dc-3fb7c76ae0b3&width=1420&userId=&cache=v2);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-bottom: 5px solid black;
+}
+header h1{
+    padding: 400px;
+    font-size: 3rem;
+}
+.soup{
+    position: absolute;
+    bottom: -90%;
+    left: 30%;
+
+    transition: transform 0.3s;
+}
+.soup:hover{
+    transform: rotate(180deg);
+}
+h2{
+    display: inline-block;
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+p{
+    padding: 0 8px;
+}
+.toop_padding{
+    padding-top: 15%;
+    
+}
+.time{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
