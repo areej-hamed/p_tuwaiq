@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<body>
+    <fieldset>
+        <legend>restaurant's menu</legend>
+        <table>
+            <tr>
+                <td><strong>Burger</strong></td>
+                <td><img src="https://images.pexels.com/photos/918581/pexels-photo-918581.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                    alt="Burger" width="20%" height="20%"></td>
+                <td>15 SR</td>
+                <td><input type="checkbox" name="burger" id="1"></td>
+            </tr>
+            <tr>
+                <td><strong>Pizza</strong></td>
+                <td><img src="https://images.pexels.com/photos/1166120/pexels-photo-1166120.jpeg?auto=compress&cs=tinysrgb&w=600"
+                     alt="Pizza" width="20%" height="20%"></td>
+                <td>20 SR</td>
+                <td><input type="checkbox" name="pizza" id="2"></td>
+            </tr>
+            <tr>
+                <td><strong>Vegetable salad</strong></td>
+                <td><img src="https://images.pexels.com/photos/257816/pexels-photo-257816.jpeg?auto=compress&cs=tinysrgb&w=600"
+                     alt="salad" width="20%" height="20%"></td>
+                <td>10 SR</td>
+                <td><input type="checkbox" name="salad" id="3"></td>
+            </tr>
+        </table>
+    </fieldset>
+    <form>
+        <fieldset>
+            <legend>Delivery information</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            
+            <label for="address">Address:</label>
+            <input type="text" id="address" required>
+
+            <label for="date">Order date:</label>
+            <input type="date" id="date" required><br>
+
+            <label for="payment">Payment method:</label><br>
+            <input type="radio" id="cash" value="cash" name="payment">
+            <label for="cash">Cash</label><br>
+            <input type="radio" id="card" value="card" name="payment">
+            <label for="card">Card</label><br>
+
+            <label for="notes">Notes:</label>
+            <textarea name="notes" id="notes"></textarea>
+        </fieldset>
+    </form>
+    <button>Send</button>
+</body>
+</html>
