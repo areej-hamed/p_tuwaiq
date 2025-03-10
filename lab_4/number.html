@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: 50px 100px 75px 50px;
+      justify-content: center;
+      align-content: center;
+    }
+
+    .grid-item {
+      background-color: beige;
+      color: black;
+      border: 1px dotted rgb(70, 69, 69);
+      text-align:end;
+    }
+
+    .grid-item:nth-child(1) {
+      order: 4;
+    }
+    .grid-item:nth-child(2) {
+      order: 15;
+    }
+    .grid-item:nth-child(3) {
+      order: 12;
+    }
+    .grid-item:nth-child(4) {
+      order: 23;
+    }
+    .grid-item:nth-child(5) {
+      order: 8;
+    }
+    .grid-item:nth-child(6) {
+      order: 9;
+    }
+    .grid-item:nth-child(7) {
+      order: 13;
+    }
+    .grid-item:nth-child(8) {
+      order: 10;
+    }
+    .grid-item:nth-child(9) {
+      order: 2;
+    }
+    .grid-item:nth-child(10) {
+      order: 20;
+    }
+    .grid-item:nth-child(11) {
+      order: 11;
+    }
+    .grid-item:nth-child(12) {
+      order: 21;
+    }
+    .grid-item:nth-child(13) {
+      order: 1;
+    }
+    .grid-item:nth-child(14) {
+      order: 17;
+    }
+    .grid-item:nth-child(15) {
+      order: 6;
+    }
+    .grid-item:nth-child(16) {
+      order: 14;
+    }
+    .grid-item:nth-child(17) {
+      order: 20;
+    }
+    .grid-item:nth-child(18) {
+      order: 3;
+    }
+    .grid-item:nth-child(19) {
+      order: 16;
+    }
+    .grid-item:nth-child(20) {
+      order: 5;
+    }
+    .grid-item:nth-child(21) {
+      order: 18;
+    }
+    .grid-item:nth-child(22) {
+      order: 7;
+    }
+    .grid-item:nth-child(23) {
+      order: 24;
+    }
+    .grid-item:nth-child(24) {
+      order: 19;
+    }
+  </style>
+  <body>
+    <div class="grid-container">
+      <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+      <div class="grid-item">5</div>
+      <div class="grid-item">6</div>
+      <div class="grid-item">7</div>
+      <div class="grid-item">8</div>
+      <div class="grid-item">9</div>
+      <div class="grid-item">10</div>
+      <div class="grid-item">11</div>
+      <div class="grid-item">12</div>
+      <div class="grid-item">13</div>
+      <div class="grid-item">14</div>
+      <div class="grid-item">15</div>
+      <div class="grid-item">16</div>
+      <div class="grid-item">17</div>
+      <div class="grid-item">18</div>
+      <div class="grid-item">19</div>
+      <div class="grid-item">20</div>
+      <div class="grid-item">21</div>
+      <div class="grid-item">22</div>
+      <div class="grid-item">23</div>
+      <div class="grid-item">24</div>
+    </div>
+  </body>
+</html>
