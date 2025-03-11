@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+ 
+  main {
+    display: grid;
+    grid-template-columns: repeat(3);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+  }
+  .container_imge {
+    width: 40%;
+  }
+  .pozshin{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-items: center;
+  }
+  .gray-texst {
+    color: gray;
+    font-size: 1em;
+  }
+
+  .grid-item-1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+  }
+  .grid-item-2{
+    background-color: #F7F8F9;
+    grid-column: span 2;
+  }
+  .grid-item-3{
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    background-color: #F05535;
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+  .grid-item-4{
+    text-align: center;
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+  .grid-item-5{
+    grid-column-start: 3;
+    grid-row-start: 2;
+  }
+  .grid-item-6{
+    background-color: #9077BD;
+    grid-column-start: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+  }
+  .grid-item-7{
+    grid-column-start: 1;
+    grid-row-start: 3;
+  }
+  .grid-item-8 {
+    color: white;
+    background-color: #9AB5B4;
+    grid-column:span 2;
+    grid-row-start: 3;
+  }
+  .grid-item-9 {
+    background-color: #35D6F4;
+    grid-column-start: 1;
+    grid-row-start: 4;
+  }
+  .grid-item-10 {
+    grid-column-start: 2;
+    grid-row-start: 4;
+  }
+  .grid-item-11 {
+    color: white;
+    background-color: #282828;
+    grid-column: span 2;
+    grid-row-start: 4;
+  }
