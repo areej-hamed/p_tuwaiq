@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header
+      class="text-center bg-indigo-700 p-10 [@media(max-width:1024px)]:flex-col"
+    >
+      <nav class="flex items-center justify-between p-6">
+        <img
+          src="https://creativethemes.com/blocksy/wp-content/uploads/2023/11/logo-light-v2.svg"
+          alt="logo"
+          width="10%"
+          height="10%"
+        />
+        <ul class="flex gap-6 text-slate-300 [@media(max-width:1024px)]:hidden">
+          <li class="hover:text-white"><a href="#">PREMIUM</a></li>
+          <li class="hover:text-white"><a href="#">STARTER SITES</a></li>
+          <li class="hover:text-white"><a href="#">PRICING</a></li>
+          <li class="hover:text-white"><a href="#">HELP</a></li>
+          <li class="hover:text-white"><a href="#">MORE</a></li>
+        </ul>
+        <ul class="flex gap-4 text-slate-300 [@media(max-width:1024px)]:hidden">
+          <li><button class="px-3 py-1">MY ACCOUNT</button></li>
+          <li>
+            <button class="bg-sky-500 hover:bg-slate-950 px-3 py-1 rounded-md">
+              Free Download
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <hr />
+      <div class="text-white p-20">
+        <h1 class="text-4xl font-bold">Blog Website Templates</h1>
+        <br />
+        <p>
+          Start your blog with Blocksy’s free, responsive templates, tailored
+          for various niches <br />
+          and ready to use. Create engaging content effortlessly with designs
+          optimized for <br />
+          food, travel, personal, fashion, tech blogs, and more.
+        </p>
+      </div>
+    </header>
+
+    <section
+      class="shadow-md p-5 text-slate-600 [@media(max-width:1024px)]:hidden"
+    >
+      <ul class="flex gap-5 justify-center">
+        <li class="hover:text-blue-500"><a href="#">All</a></li>
+        <li class="text-blue-500"><a href="#">Blog</a></li>
+        <li class="hover:text-blue-500"><a href="#">Business</a></li>
+        <li class="hover:text-blue-500"><a href="#">Ecommerce</a></li>
+        <li class="hover:text-blue-500"><a href="#">News</a></li>
+        <li class="hover:text-blue-500"><a href="#">Nonprofit</a></li>
+        <li class="hover:text-blue-500"><a href="#">Personal</a></li>
+        <li class="hover:text-blue-500"><a href="#">Portfolio</a></li>
+        <li class="hover:text-blue-500"><a href="#">Travel</a></li>
+      </ul>
+    </section>
+
+    <section
+      class="flex justify-center items-center gap-6 p-10 [@media(max-width:1024px)]:flex-col"
+    >
+      <div class="flex flex-col text-center gap-5 rounded-lg w-[350px]">
+        <img
+          src="https://creativethemes.com/blocksy/wp-content/uploads/2023/11/Main-Image-2.jpg"
+          alt=""
+        />
+
+        <div class="flex justify-evenly">
+          <p class="font-bold">Daily News</p>
+          <p class="bg-blue-600 rounded-xl px-2 text-white text-sm">NEW</p>
+        </div>
+        <p class="text-slate-600">
+          Daily News provides a magazine-style layout with dark mode,
+          multi-language support, and eye-catching visuals to effectively engage
+          readers and present content.
+        </p>
+      </div>
+
+      <div class="flex flex-col text-center gap-6 rounded-lg w-[350px]">
+        <img
+          src="https://creativethemes.com/blocksy/wp-content/uploads/2022/10/Main-Image.jpg"
+          alt=""
+        />
+        <div class="flex justify-evenly">
+          <p class="font-bold">Restaurant</p>
+          <p class="bg-blue-600 rounded-xl px-2 text-white text-sm">NEW</p>
+        </div>
+        <p class="text-slate-600">
+          The restaurant’s design emphasizes elegant dining. It uses a dark
+          color scheme, full-screen hero sections, and beautiful food
+          photography to engage visitors.
+        </p>
+      </div>
+
+      <div class="flex flex-col text-center gap-6 rounded-lg w-[350px]">
+        <img
+          src="https://creativethemes.com/blocksy/wp-content/uploads/2022/09/Main-Image-12.jpg"
+          alt=""
+        />
+        <div class="flex justify-evenly">
+          <p class="font-bold">Wedding</p>
+          <p class="bg-blue-600 rounded-xl px-2 text-white text-sm">NEW</p>
+        </div>
+        <p class="text-slate-600">
+          Wedding offers a beautiful layout for showcasing wedding photos,
+          perfect for agencies and personal events. Its focus is on stunning
+          imagery.
+        </p>
+      </div>
+
+      <div class="flex flex-col text-center gap-6 rounded-lg w-[350px]">
+        <img
+          src="https://creativethemes.com/blocksy/wp-content/uploads/2022/09/Main-Image-10.jpg"
+          alt=""
+        />
+        <p class="font-bold">Persona</p>
+        <p class="text-slate-600">
+          Wedding offers a beautiful layout for showcasing wedding photos,
+          perfect for agencies and personal events. Its focus is on stunning
+          imagery.
+        </p>
+      </div>
+    </section>
+
+    <footer
+      class="p-20 bg-gray-100 [@media(max-width:1024px)]:flex-col [@media(max-width:1024px)]:gap-4"
+    >
+      <div class="flex justify-between gap-30">
+        <div>
+          <p class="font-bold">Stay Informed with Early Updates!</p>
+          <p>
+            Subscribe to our newsletter and receive the latest theme <br />
+            updates and important news directly to your inbox.
+          </p>
+        </div>
+        <div>
+          <input
+            class="w-80 h-12 rounded-md px-2"
+            placeholder="Youre Email Address"
+            type="text"
+          />
+          <button class="bg-blue-600 hover:bg-blue-800 px-3 py-2 rounded-md">Subscribe</button>
+          <div class="flex items-center">
+            <input
+              id="link-checkbox"
+              type="checkbox"
+              value=""
+              class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+            />
+            <label
+              for="link-checkbox"
+              class="ms-2 text-sm font-medium text-blue-600 dark:text-gray-400"
+              >I agree to receive your newsletters and accept the data privacy
+              statement.</label
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
