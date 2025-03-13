@@ -68,49 +68,92 @@
     </nav>
     <!--end nav-->
     <section
-      class="p-5 grid grid-cols-1 sm:grid-cols-6 gap-2 grid-rows-5 grid-flow-row-dense [@media(max-width:1024px)]:flex-col"
+      class="p-5 flex justify-between [@media(max-width:1024px)]:gap-4  [@media(max-width:1024px)]:flex-col"
     >
       <!--Grid 1-->
-      <div class="bg-white rounded-lg h-52 ">
-        <img src="color.png" alt="" class="w-52 h-14 rounded-t-lg" />
-        <img src="new-design.png" alt="" class="w-10 h-8" />
-        <p class="font-bold pl-3 text-lg">Areej Hamed</p>
-        <p class="text-sm pl-3">Atudent at King Saud University</p>
-        <p class="text-xs pl-3 text-gray-400">Riyadh Region</p>
-      </div>
+  <div class=" flex flex-col gap-2">
+    <div class=" bg-white rounded-lg h-52 ">
+      <img src="color.png" alt="" class="w-52 a h-14 rounded-t-lg" />
+      <img src="new-design.png" alt="" class="w-10 h-8" />
+      <p class="font-bold pl-3 text-lg">Areej Hamed</p>
+      <p class="text-sm pl-3">Atudent at King Saud University</p>
+      <p class="text-xs pl-3 text-gray-400">Riyadh Region</p>
+    </div>
+    <div class="bg-white rounded-lg p-3 h-40">
+      <ul>
+        <li class="flex justify-between pb-3 col-start-1">
+          <a href="#">Connections</a>
+          <i class="fa-solid fa-user-plus"></i>
+        </li>
+        <li>
+          <a href="#">Invitations</a>
+        </li>
+      </ul>
+    </div>
+  </div> 
       <!--Grid 2-->
-      <div class="bg-white rounded-lg align-middle p-5 col-span-3 h-32">
-        <div class="flex justify-center">
-          <img src="new-design.png" alt="" class="w-11 h-9" />
-          <input
-            class="w-80 h-9 rounded-[40px] border-2 border-solid border-gray-500"
-            placeholder="search"
-            type="text"
-          />
+      <div class="flex flex-col gap-2">
+        <div class="bg-white rounded-lg align-middle p-5 col-span-2 h-32">
+          <div class="flex justify-center">
+            <img src="new-design.png" alt="" class="w-11 h-9" />
+            <input
+              class="w-80 h-9 rounded-[40px] border-2 border-solid border-gray-500"
+              placeholder="search"
+              type="text"
+            />
+          </div>
+          <ul class="flex justify-center gap-4 pt-3">
+            <li>
+              <button class="hover:bg-slate-300 rounded-sm w-20 h-10">
+                <i class="fa-regular fa-image" style="color: #1186df"></i> Media
+              </button>
+            </li>
+            <li>
+              <button class="hover:bg-slate-300 rounded-sm w-20 h-10">
+                <i class="fa-regular fa-calendar-days" style="color: #b18c06"></i>
+                Event
+              </button>
+            </li>
+            <li>
+              <button class="hover:bg-slate-300 rounded-sm w-28 h-10">
+                <i class="fa-solid fa-square-pen" style="color: #aa3a27"></i>
+                Write article
+              </button>
+            </li>
+          </ul>
         </div>
-        <ul class="flex justify-center gap-4 pt-3">
-          <li>
-            <button class="hover:bg-slate-300 rounded-sm w-20 h-10">
-              <i class="fa-regular fa-image" style="color: #1186df"></i> Media
-            </button>
-          </li>
-          <li>
-            <button class="hover:bg-slate-300 rounded-sm w-20 h-10">
-              <i class="fa-regular fa-calendar-days" style="color: #b18c06"></i>
-              Event
-            </button>
-          </li>
-          <li>
-            <button class="hover:bg-slate-300 rounded-sm w-28 h-10">
-              <i class="fa-solid fa-square-pen" style="color: #aa3a27"></i>
-              Write article
-            </button>
-          </li>
-        </ul>
+        <div class="bg-white flex ju rounded-lg p-3 col-span-3  ">
+          <ul>
+            <li class="flex gap-2 pb-2 justify-around">
+              <img
+                src="https://media.licdn.com/dms/image/v2/D4D0BAQF21oP-rp0ljA/company-logo_200_200/company-logo_200_200/0/1721041067387/tuwaiqacademy_logo?e=1749686400&v=beta&t=KBE3fn4kvZYmNWFm4ViD3riyhEQwAhUT-vuju0EmiOE"
+                alt="flower"
+                class="rounded-full w-10 h-10"
+              />
+              <div>
+                <p>Tuwaiq Academy | أكاديمية طويق</p>
+                <p class="text-xs text-slate-400 pb-1">
+                  Company.Technology, Information and Internet
+                </p>
+              </div>
+              <button class="hover:bg-slate-300 rounded-lg">
+                <i class="fa-solid fa-plus"></i> Follow
+              </button>
+            </li>
+            <li>
+              <img
+                src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+                class="h-[30%] rounded-lg"
+              />
+            </li>
+          </ul>
+        </div>
       </div>
+      
       <!--Grid 3-->
       
-        <div class="bg-white rounded-lg p-3 col-span-2 row-span-2 h-80 w-64">
+        <div class="bg-white rounded-lg p-3 h-80">
           <p class="font-bold">Add to your feed</p>
           <ul>
             <li class="flex gap-2 pb-2">
@@ -169,46 +212,11 @@
       
 
       <!--Grid_1 rwo_2-->
-      <div class="bg-white rounded-lg p-3 h-40">
-        <ul>
-          <li class="flex justify-between pb-3 col-start-1">
-            <a href="#">Connections</a>
-            <i class="fa-solid fa-user-plus"></i>
-          </li>
-          <li>
-            <a href="#">Invitations</a>
-          </li>
-        </ul>
-      </div>
-      
-      <!--Grid_2 row_2-->
-      <div class="bg-white rounded-lg p-3 col-span-3 row-span-4 ">
-        <ul>
-          <li class="flex gap-2 pb-2 justify-around">
-            <img
-              src="https://media.licdn.com/dms/image/v2/D4D0BAQF21oP-rp0ljA/company-logo_200_200/company-logo_200_200/0/1721041067387/tuwaiqacademy_logo?e=1749686400&v=beta&t=KBE3fn4kvZYmNWFm4ViD3riyhEQwAhUT-vuju0EmiOE"
-              alt="flower"
-              class="rounded-full w-10 h-10"
-            />
-            <div>
-              <p>Tuwaiq Academy | أكاديمية طويق</p>
-              <p class="text-xs text-slate-400 pb-1">
-                Company.Technology, Information and Internet
-              </p>
-            </div>
-            <button class="hover:bg-slate-300 rounded-lg">
-              <i class="fa-solid fa-plus"></i> Follow
-            </button>
-          </li>
-          <li>
-            <img
-              src="https://images.pexels.com/photos/2102416/pexels-photo-2102416.jpeg?auto=compress&cs=tinysrgb&w=600"
-              alt=""
-              class="h-[30%] rounded-lg"
-            />
-          </li>
-        </ul>
-      </div>
+     
     </section>
+
+    
+    <!--Grid_2 row_2-->
+    
   </body>
 </html>
