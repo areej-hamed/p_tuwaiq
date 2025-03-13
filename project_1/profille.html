@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-[#F4F2EE]">
+    <nav
+      class="flex sticky top-0 left-0 z-50 w-full [@media(max-width:1024px)]:justify-between justify-around items-center p-2 bg-white shadow-sm [@media(max-width:1024px)]:p-2"
+    >
+      <div class="flex gap-1">
+        <img
+          class="w-9 h-9"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/600px-LinkedIn_logo_initials.png"
+          alt="LinkedIn_logo"
+        />
+        <div class="relative">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="absolute w-5 h-5 top-2.5 left-2.5 text-slate-600"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z"
+              clip-rule="evenodd"
+            />
+          </svg>
+          <input
+            class="w-full bg-transparent placeholder:text-slate-400 text-slate-700 text-sm border border-slate-200 rounded-md pl-10 pr-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
+            placeholder="search"
+          />
+        </div>
+      </div>
+
+      <ul class="flex gap-8 [@media(max-width:1024px)]:flex-col">
+        <li class="relative">
+          <a href="linkdin-home.html" class="inline-block"
+            ><i class="fa-solid fa-house"></i>
+            <div
+              class="absolute left-1/2 transform -translate-x-1/2 text-xs border-b-2 border-transparent hover:border-black"
+            >
+              Home
+            </div></a
+          >
+        </li>
+        <li class="relative">
+          <a href="#" class="inline-block"
+            ><img src="new-design.png" alt="logo" class="w-8 h-6" />
+            <div
+              class="absolute left-1/2 transform -translate-x-1/2 text-xs border-b-2 border-transparent hover:border-black"
+            >
+              Me
+            </div></a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!--end nav-->
+    <section
+      class="p-10 grid grid-cols-1 sm:grid-cols-5 gap-5 grid-rows-12 grid-flow-row-dense"
+    >
+      <div class="bg-white rounded-lg col-span-4 row-span-3">
+        <img src="color.png" alt="" class="w-[100%] h-24 rounded-t-lg" />
+        <img src="new-design.png" alt="" class="w-30 h-28" />
+        <p class="font-bold pl-3 text-lg">Areej Hamed</p>
+        <p class="text-sm pl-3">Atudent at King Saud University</p>
+        <p class="text-xs pl-3 text-gray-400">Riyadh Region</p>
+      </div>
+      <div class="bg-white rounded-lg h-32 text-center p-7">
+        <ul>
+          <li>Profile language</li>
+          <hr>
+          <li>public profil & URL</li>
+        </ul>
+      </div>
+      <div class="bg-white rounded-lg col-span-4 row-span-3">
+      </div>
+    </section>
+  </body>
+</html>
